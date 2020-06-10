@@ -1,0 +1,51 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Visa WebSite/App">
+
+	<listeners>
+		<listener class-name="com.ghana.app.qa.listener.Listener" />
+		<listener class-name="com.ghana.app.qa.extentreport.ExtentReportListener" />
+	</listeners>
+
+	<test name="VisaApplicationTest">
+		<classes>
+			<class name="com.ghana.app.qa.testcases.Mutiple_Application"></class>
+			
+		<!-- 	<class name="com.ghana.app.qa.testcases.VisaPaymentPageTest"></class>
+			
+			<class name="com.ghana.app.qa.testcases.HomePageTest"></class>
+			<class name="com.ghana.app.qa.testcases.VisaCategoriesPageTest"></class>
+			<class name="com.ghana.app.qa.testcases.SignUpPageTest"></class>
+			<class name="com.ghana.app.qa.testcases.PersonalInfoPageTest"></class>
+			<class name="com.ghana.app.qa.testcases.AddressInfoPageTest"></class>
+			<class name="com.ghana.app.qa.testcases.EmergencyContactPageTest"></class>
+			<class name="com.ghana.app.qa.testcases.TravelInfoPageTest"></class>
+			<class name="com.ghana.app.qa.testcases.UploadDocPageTest"></class>
+			<class name="com.ghana.app.qa.testcases.ReviewApplicationPageTest"></class>
+			<class name="com.ghana.app.qa.testcases.VisaPaymentPageTest"></class>
+
+			<class name="com.ghana.app.qa.testcases.ConsulatePageApproveTest"></class>
+			<class name="com.ghana.app.qa.testcases.ConsulatePageRejectTest"></class>
+			<class name="com.ghana.app.qa.testcases.ConsulatePageFlagTest"></class>
+			<class name="com.ghana.app.qa.testcases.HighCommissionPageApproveTest"></class>
+			<class name="com.ghana.app.qa.testcases.HighCommissionPageRejectTest"></class>
+			<class name="com.ghana.app.qa.testcases.HighCommissionPageFlagTest"></class>
+
+			<class name="com.ghana.app.qa.testcases.Ghanian_National_SignUpLoginTest"></class>
+			<class name="com.ghana.app.qa.testcases.GhanaNational_LoginTest"></class>
+			<class name="com.ghana.app.qa.testcases.GhanaNational_PersonalInfoTest"></class>
+			<class name="com.ghana.app.qa.testcases.GhanaNational_AddressInfoTest"></class>
+			<class name="com.ghana.app.qa.testcases.GhanaNational_EmergencyPageTest"></class>
+
+			<class name="com.ghana.app.qa.testcases.GhanaWebSiteBrokenLinkTest"></class>  -->
+			
+			
+		</classes>
+	</test>
+</suite>
+	
+	
+	
+	
+	

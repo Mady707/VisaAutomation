@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Torenzo WebSite]">
+  <listeners>
+    <listener class-name="com.ghana.app.qa.listener.Listener"/>
+    <listener class-name="com.ghana.app.qa.extentreport.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="VisaApplicationTest(failed)">
+    <classes>
+      <class name="com.ghana.app.qa.testcases.Ghanian_National_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="launchAndGotoSignUP"/>
+          <include name="New_National_verification"/>
+        </methods>
+      </class> <!-- com.ghana.app.qa.testcases.Ghanian_National_Test -->
+    </classes>
+  </test> <!-- VisaApplicationTest(failed) -->
+</suite> <!-- Failed suite [Torenzo WebSite] -->
