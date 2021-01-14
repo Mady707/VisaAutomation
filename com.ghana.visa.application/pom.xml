@@ -101,7 +101,7 @@
 </dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi <dependency> 
-			<groupId>org.apache.poi</groupId> <artifactId>poi</artifactId> <version>3.16-beta2</version> 
+			<groupId>org.apache.poi</groupId> <artifactId>poi</artifactId> <version>3.17</version> 
 			</dependency> <dependency> <groupId>xml-apis</groupId> <artifactId>xml-apis</artifactId> 
 			<version>1.4.01</version> </dependency> <dependency> <groupId>org.apache.poi</groupId> 
 			<artifactId>poi-ooxml</artifactId> <version>3.9</version> </dependency> <dependency> 
@@ -112,7 +112,7 @@
 			<version>1.1</version> </dependency> <dependency> <groupId>org.apache.poi</groupId> 
 			<artifactId>openxml4j</artifactId> <version>1.0-beta</version> </dependency> 
 			<dependency> <groupId>org.apache.poi</groupId> <artifactId>poi</artifactId> 
-			<version>3.9</version> </dependency> <dependency> <groupId>org.apache.poi</groupId> 
+			<version>3.17</version> </dependency> <dependency> <groupId>org.apache.poi</groupId> 
 			<artifactId>poi-ooxml</artifactId> <version>3.9</version> </dependency> <dependency> 
 			<groupId>org.apache.poi</groupId> <artifactId>poi-ooxml-schemas</artifactId> 
 			<version>3.9</version> </dependency> <dependency> <groupId>org.apache.poi</groupId> 
@@ -124,7 +124,7 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>3.16-beta2</version>
+			<version>3.17</version>
 		</dependency>
 
 		<dependency>
@@ -156,7 +156,7 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>3.9</version>
+			<version>3.17</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
